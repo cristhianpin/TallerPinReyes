@@ -11,14 +11,14 @@ using TallerPinReyes.Data;
 namespace TallerPinReyes.Migrations
 {
     [DbContext(typeof(TallerPinReyesContext))]
-    [Migration("20230609044315_initial")]
+    [Migration("20230613012035_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.16")
+                .HasAnnotation("ProductVersion", "6.0.5")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
